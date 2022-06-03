@@ -5,6 +5,7 @@
 {% block content %}
     <div class="article-detail">
     <div class="article">
+        <img src="{{ article.image.url }}" alt="">
         <h2>{{ article.title }}</h2>
         <p>{{ article.body }}</p>
         <h4>created in {{ article.date }}</h4>
