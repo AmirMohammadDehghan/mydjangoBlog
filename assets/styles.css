@@ -1,9 +1,9 @@
 body {
-    background-color: antiquewhite ;
+    background-color: rebeccapurple ;
     background-image: url(start.jpg);
     background-repeat-y:no-repeat;
     background-attachment:fixed;
-    color: antiquewhite;
+    color: azure;
 }
 
 body* {
@@ -18,6 +18,6 @@ p{
 }
 
 a,a:hover,visited{
-    color:antiquewhite;
+    color:azure;
     text-decoration:none;
 }

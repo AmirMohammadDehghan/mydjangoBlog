@@ -3,7 +3,7 @@ from . import models
 
 
 def articles_lists(request):
-    articles = models.Article.objects.all().order_by('date')
+    articles = models.Article.objects.all().order_by('-date')
 
     args = {
         'articles': articles
